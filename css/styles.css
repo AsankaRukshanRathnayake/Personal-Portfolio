@@ -1,0 +1,21 @@
+body, html{
+    margin:0;
+    padding:0;
+    background-color: blue;
+}
+
+#toggleMe {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+#toggleMe.expanded {
+    max-height: 1000px; /* You can adjust this value to control the height of the expanded content */
+}
+  
+  
+  
+  
+  
+  
