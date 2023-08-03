@@ -1,12 +1,11 @@
 .education{
-    background-color: aquamarine;
     width:100%;
     border:1px solid white;
 }
 
 .education_container{
-    margin:5% 5% 5% 5%;
-    padding:5% 5% 5% 5%;
+    margin:1% 10% 1% 10%;
+    padding:1% 0% 1% 0%;
     display: flex;
     border:1px solid white;
 }
@@ -19,9 +18,27 @@
 .education_details_container{
     width:70%;
     border:1px solid white;
+    padding:5px 20px 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .education_icon{
-    width:40%;
-    margin-left:30%;
+    width:20%;
+    margin-left:65%;
+    margin-top:6%;
+    margin-bottom:2%;
+}
+
+.education_heading{
+    font-size:20px;
+}
+
+.education_institute{
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.education_time{
+    font-size:15px;
 }
