@@ -11,53 +11,11 @@
         <link type="text/css" href="css/education.css" rel="stylesheet">
         <link type="text/css" href="css/extracurricular.css" rel="stylesheet">
 
+        <script src="js/toggle.js"></script>
+
     </head>
 
     <body>
-
-        <!--
-        <button onclick="toggleElement()">Toggle Element</button>
-
-        <div id="toggleMe" style="display: none;">
-            This is the content that will be toggled.
-        </div>
-
-        <script>
-            function toggleElement() {
-                var element = document.getElementById('toggleMe');
-                
-                if (element.style.display === 'none') {
-                    element.style.display = 'block'; // or 'inline', 'inline-block', etc., based on your layout
-                } else {
-                    element.style.display = 'none';
-                }
-            }
-        </script>
-
-    -
-
-        <button onclick="toggleElement()">Toggle Down/Up</button>
-        <div id="toggleMe" class="collapsed">
-            This is the content that will be toggled.
-        </div>
-
-        <script>
-            function toggleElement() {
-                var element = document.getElementById('toggleMe');
-
-                if (element.classList.contains('collapsed')) {
-                    element.classList.remove('collapsed');
-                    element.classList.add('expanded');
-                } else {
-                    element.classList.remove('expanded');
-                    element.classList.add('collapsed');
-                }
-            }
-            
-        </script>
-
-    -->
-
 
         <div class="main_container">
             <div class="profile">
@@ -76,57 +34,129 @@
                 </div>
             </div>
 
-        </div>
+            <div class="toggle_container">
 
-        <div class="bio">
+                <!--Bio-->
+                <button type="button" class="open">Bio</button>
 
-        </div>
+                <!--Education-->
+                <button type="button" class="open">Education</button>
 
-        
-
-        <div class="education">
-            <div class="education_container">
-
-                <div class="education_icon_container">
-                    <img src="images/universityofkelaniyalogo.png" alt="universityofkelaniyalogo" class="education_icon">
+                <div class="content">
+                    <div class="education">
+                        <div class="education_container">
+            
+                            <div class="education_icon_container">
+                                <img src="images/universityofkelaniyalogo.png" alt="universityofkelaniyalogo" class="education_icon">
+                            </div>
+            
+                            <div class="education_details_container">
+                                <p>
+                                    <span class="education_heading">BSc.(Hons) Software Engineering (R)</span><br>
+                                    <span class="education_institute">University of Kelaniya</span><br>
+                                    <span class="education_time">2021-present</span><br>
+                                </p>
+                            </div>
+                        </div>
+            
+                        <div class="education_container">
+                            <div class="education_icon_container">
+                                <img src="images/openuniversitylogo.png" alt="openuniversitylogo" class="education_icon">
+                            </div>
+            
+                            <div class="education_details_container">
+                                <p>
+                                    <span class="education_heading">Certificate in HRM</span><br>
+                                    <span class="education_institute">Open University of Sri Lanka</span><br>
+                                    <span class="education_time">2020-2021</span><br>
+                                </p>
+                            </div>
+                        </div>
+            
+                        <div class="education_container">
+                            <div class="education_icon_container">
+                                <img src="images/royalcollegelogo.png" alt="royalcollegelogo" class="education_icon">
+                            </div>
+            
+                            <div class="education_details_container">
+                                <p>
+                                <span class="education_heading">Secondary Education</span><br>
+                                <span class="education_institute">Royal College, Colombo</span><br>
+                                <span class="education_time">2021-present</span><br>
+                                </p>
+                            </div>
+                        </div>
+            
+                    </div>
                 </div>
 
-                <div class="education_details_container">
-                    <p>BSc.(Hons) Software Engineering (R)</p>
-                    <p>University of Kelaniya</p>
-                    <p>2021-present</p>
+                <!--Extracurricular-->
+
+                <button type="button" class="open">Extra-Curricular</button>
+
+                <div class="content">
+                    <div class="cocurricular">
+                        <div class="cocurricular_container">
+            
+                            <div class="cocurricular_icon_container">
+                                <img src="images/sesalogo2.png" alt="sesalogo" class="cocurricular_icon">
+                            </div>
+            
+                            <div class="cocurricular_details_container">
+                                <p>
+                                    <span class="cocurricular_heading">
+                                        Software Engineering Students Association<br>
+                                        University of Kelaniya</span><br>
+                                    <span class="cocurricular_institute">Executive Committee Member</span><br>
+                                    <span class="cocurricular_time">2022/2023</span><br>
+                                </p>
+                            </div>
+                        </div>
+            
+                        <div class="cocurricular_container">
+                            <div class="cocurricular_icon_container">
+                                <img src="images/asrclogo.jpeg" alt="asrclogo" class="cocurricular_icon">
+                            </div>
+            
+                            <div class="cocurricular_details_container">
+                                <p>
+                                    <span class="cocurricular_heading">
+                                        Agriculture Society<br>
+                                        Royal College, Colombo
+                                    </span><br>
+                                    <span class="cocurricular_institute">The Secretary</span><br>
+                                    <span class="cocurricular_time">2018/2019</span><br>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+
+                <!--Skills-->
+                <button type="button" class="open">Skills</button>
+                <button type="button" class="open">Projects</button>
+                <button type="button" class="open">Contact</button>
             </div>
 
-            <div class="education_container">
-                <div class="education_icon_container">
-                    <img src="images/openuniversitylogo.png" alt="openuniversitylogo" class="education_icon">
-                </div>
-
-                <div class="education_details_container">
-                    <p>Certificate in HRM</p>
-                    <p>Open University of Sri Lanka</p>
-                    <p>2020-2021</p>
-                </div>
-            </div>
-
-            <div class="education_container">
-                <div class="education_icon_container">
-                    <img src="images/royalcollegelogo.png" alt="royalcollegelogo" class="education_icon">
-                </div>
-
-                <div class="education_details_container">
-                    <p>Secondary Education</p>
-                    <p>Royal College, Colombo</p>
-                    <p>2021-present</p>
-                </div>
-            </div>
-
         </div>
 
-        <div class="extracurricular">
-
-        </div>
+        <script>
+            var coll = document.getElementsByClassName("open");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                }
+              });
+            }
+        </script>
 
     </body>
 
