@@ -1,0 +1,44 @@
+.cocurricular{
+    width:100%;
+    border:1px solid white;
+}
+
+.cocurricular_container{
+    margin:1% 10% 1% 10%;
+    padding:1% 0% 1% 0%;
+    display: flex;
+    border:1px solid white;
+}
+
+.cocurricular_icon_container{
+    width:30%;
+    border:1px solid white;
+}
+
+.cocurricular_details_container{
+    width:70%;
+    border:1px solid white;
+    padding:5px 20px 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cocurricular_icon{
+    width:50%;
+    margin-left:35%;
+    margin-top:0%;
+    margin-bottom:2%;
+}
+
+.cocurricular_heading{
+    font-size:20px;
+}
+
+.cocurricular_institute{
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.cocurricular_time{
+    font-size:15px;
+}
