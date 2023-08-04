@@ -1,0 +1,107 @@
+.bio{
+    width:80%;
+    margin:2% 10% 2% 10%;
+}
+
+.personal_statement{
+    text-align: center;
+    font-size:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:5%;
+    margin-bottom: 7%;
+}
+
+.interest_container{
+    display:flex;
+    width:90%;
+    margin:5% 5% 5% 5%;
+}
+
+.interest_heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.interest{
+    width:33.33%;
+}
+
+.interest_image{
+    width:30%;
+    padding:2% 35% 2% 35%;
+}
+
+.interest_title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top:20px;
+    text-align: center;
+}
+
+.hobbies_container{
+    display:flex;
+    width:90%;
+    margin:5% 5% 5% 5%;
+}
+
+.hobbies_heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.hobby{
+    width:33.33%;
+}
+
+.hobby_image{
+    width:30%;
+    padding:2% 35% 2% 35%;
+}
+
+.hobby_title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top:20px;
+    text-align: center;
+}
+
+
+
+.education_icon_container{
+    width:30%;
+    border:1px solid white;
+}
+
+.education_details_container{
+    width:70%;
+    border:1px solid white;
+    padding:5px 20px 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.education_icon{
+    width:20%;
+    margin-left:65%;
+    margin-top:6%;
+    margin-bottom:2%;
+}
+
+.education_heading{
+    font-size:20px;
+}
+
+.education_institute{
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.education_time{
+    font-size:15px;
+}
