@@ -1,0 +1,46 @@
+.contact{
+    width:100%;
+    border:1px solid white;
+}
+
+.contact_container{
+    margin:1% 10% 1% 10%;
+    padding:1% 0% 1% 0%;
+    display: flex;
+    border:1px solid white;
+}
+
+.contact_icon_container{
+    width:40%;
+    border:1px solid white;
+}
+
+.contact_details_container{
+    width:60%;
+    border:1px solid white;
+    padding:5px 20px 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact_icon{
+    width:15%;
+    margin-left:35%;
+    margin-top:0%;
+    margin-bottom:2%;
+}
+
+.contact_me{
+    font-size:20px;
+    text-decoration: none;
+    color:black;
+}
+
+.contact_institute{
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.contact_time{
+    font-size:15px;
+}
