@@ -1,15 +1,24 @@
-.bio{
+.about{
     width:80%;
     margin:2% 10% 2% 10%;
 }
 
 .personal_statement{
+    width:84%;
+    margin:3% 8% 3% 8%;
+    font-size: 18px;
     text-align: center;
-    font-size:25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top:5%;
-    margin-bottom: 7%;
 }
+
+.about_heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin-top:5%;
+}
+
 
 .interest_container{
     display:flex;
@@ -17,13 +26,6 @@
     margin:5% 5% 5% 5%;
 }
 
-.interest_heading{
-    text-align: center;
-    font-weight: 600;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
-}
 
 .interest{
     width:33.33%;
