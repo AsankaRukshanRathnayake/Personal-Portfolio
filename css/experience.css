@@ -1,0 +1,41 @@
+.experience{
+    margin-top:3%;
+    width:100%;
+    align-items: center;
+}
+
+.experience_container{
+    margin:1% 20% 20% 20%;
+    padding:1% 0% 1% 0%;
+    display: flex;
+}
+
+.experience_icon_container{
+    width:30%;
+}
+
+.experience_details_container{
+    width:70%;
+    padding:5px 20px 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.experience_icon{
+    width:34%;
+    margin-left:33%;
+    margin-right: 33%;
+    margin-top:6%;
+    margin-bottom:2%;
+}
+
+.experience_heading1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.experience_heading2{
+    font-size: 20px;
+}
+
+.experience_details{
+    font-size:20px;
+}
