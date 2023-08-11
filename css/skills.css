@@ -33,15 +33,16 @@
 }
 
 .icon5{
-    background-color: black;
     border:none;
-    width:110px;
+    width:115px;
 }
 
 .skillbar{
     width:100%;
-    height:25px;
-    background-color:grey;
+    background-color:rgb(215, 245, 247);
+    padding-bottom:3px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: px;
 }
 
 .excellent{
@@ -49,6 +50,13 @@
     height:23px;
     margin:1px 1px 1px 1px;
     background-color: gold;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:black;
+    font-weight: 600;
+    font-size:15px;
+    padding-left:5px;
+
 }
 
 .good{
@@ -56,6 +64,13 @@
     height:23px;
     margin:1px 1px 1px 1px;
     background-color: greenyellow;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:black;
+    font-weight: 600;
+    font-size:15px;
+    padding-left:5px;
+
 
 }
 
@@ -63,14 +78,33 @@
     width:54%;
     height:23px;
     margin:1px 1px 1px 1px;
-    background-color: brown;
+    background-color:coral;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:black;
+    font-weight: 600;
+    font-size:15px;
+    padding-left:5px;
+}
 
+.reading{
+    width:34%;
+    height:23px;
+    margin:1px 1px 1px 1px;
+    background-color:cyan;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:black;
+    font-weight: 600;
+    font-size:15px;
+    padding-left:5px;
 }
 
 .skill_heading{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:22px;
 }
+
 
 
 
