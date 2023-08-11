@@ -5,27 +5,23 @@
 }
 
 .projects_container{
-    margin:1% 20% 20% 20%;
+    margin:1% 10% 4% 10%;
     padding:1% 0% 1% 0%;
     display: flex;
 }
 
 .projects_icon_container{
-    width:30%;
+    width:40%;
 }
 
 .projects_details_container{
-    width:70%;
-    padding:5px 20px 5px 20px;
+    width:55%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:4%;
 }
 
 .projects_icon{
-    width:34%;
-    margin-left:33%;
-    margin-right: 33%;
-    margin-top:6%;
-    margin-bottom:2%;
+    width:100%;
 }
 
 .projects_heading{
@@ -39,3 +35,21 @@
 .projects_details{
     font-size:20px;
 }
+
+
+
+.icon{
+    width:20px;
+}
+
+.link{
+
+}
+
+.link a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:black;
+    font-size: 18px;
+}
+
