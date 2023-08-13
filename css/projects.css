@@ -71,25 +71,30 @@
     }
     
     .projects_details_container{
-        width:95%;
+        width:100%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding-left:5%;
+        padding-left: 0;
+        text-align: center;
     }
     
     .projects_icon{
         width:100%;
+        padding-top:2%;
+        padding-bottom:2%;
     }
     
     .projects_heading{
         font-weight: 600;
-        font-size: 25px;
+        font-size: 24px;
     }
     .projects_heading2{
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .projects_details{
-        font-size:20px;
+        font-size:16px;
+        padding-left:5%;
+        text-align: left;
     }
     
     .icon{
@@ -97,7 +102,7 @@
     }
     
     .link{
-    
+        
     }
     
     .link a{

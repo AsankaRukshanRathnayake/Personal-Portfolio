@@ -57,24 +57,26 @@
     }
     
     .contact_icon_container{
-        width:10%;
+        width:20%;
     }
     
     .contact_details_container{
-        width:90%;
-        padding:5px 5px 5px 5px;
+        width:100%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
     .contact_icon{
-        width:90%;
-        margin-left:5%;
+        width:70%;
+        margin-left:0;
+        margin-right: 0;
+        padding-left:25%;
+        padding-right: 5%;
         margin-top:5%;
         margin-bottom:2%;
     }
     
     .contact_me{
-        font-size:15px;
+        font-size:14px;
         text-decoration: none;
         color:black;
     }

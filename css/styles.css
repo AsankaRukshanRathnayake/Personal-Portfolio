@@ -2,49 +2,8 @@ body, html{
     margin:0;
     padding:0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:99.96%;
 }
-
-.toggle_container{
-    width:100%;
-    border:1px solid white;
-}
-
-.open {
-    padding: 1% 5% 1% 5%;
-    margin: 1% 10% 0% 10%;
-    width:80%;
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-}
-  
-.active, .collapsible:hover {
-    background-color: #ccc;
-}
-  
-  /* Style the collapsible content. Note: hidden by default */
-
-  .content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-
-  .open:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
 
   .section_heading{
     width:80%;
@@ -56,40 +15,20 @@ body, html{
     margin:10% 10% 0% 10%;
   }
 
-  /* scroll */
-.icon2{
-  position: absolute;
-  background-color: black;
-  border:none;
-  left: 90%;
-}
+  .top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:transparent;
+    color:black;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
 
-.icon3{
-  position:fixed;
-  background-color: black;
-  border:none;
-  left: 90%;
-}
-
-.top_to_bottom{
-  top:90%;
-}
-
-.bottom_to_top{
-  top:200%;
-}
-
-.toggle-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-  display: none;
-}
+  .icon2{
+    width:50px;
+  }
 
 @media (max-width: 767px) {
   body, html{
@@ -109,40 +48,18 @@ body, html{
     text-align: center;
   }
 
-  /* scroll */
-.icon2{
-  position: absolute;
-  background-color: black;
-  border:none;
-  left: 90%;
-}
+  .top-button {
+    position: fixed;
+    background-color:transparent;
+    color:black;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
 
-.icon3{
-  position:fixed;
-  background-color: black;
-  border:none;
-  left: 90%;
-}
-
-.top_to_bottom{
-  top:90%;
-}
-
-.bottom_to_top{
-  top:200%;
-}
-
-.toggle-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-  display: none;
-}
+  .icon2{
+    width:30px;
+  }
 
 }
 

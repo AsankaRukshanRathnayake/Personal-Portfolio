@@ -64,6 +64,7 @@
         width:92%;
         padding:2% 4% 2% 4%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
     }
     
     .experience_icon{
@@ -77,15 +78,14 @@
     .experience_heading1{
         font-weight: 600;
         font-size: 24px;
-        text-align: center;
     }
     .experience_heading2{
         font-size: 18px;
-        text-align: center;
     }
     
     .experience_details{
         font-size:16px;
+        text-align: left;
     }
 
 }
