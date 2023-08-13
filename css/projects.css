@@ -53,3 +53,59 @@
     font-size: 18px;
 }
 
+@media(max-width:767px){
+    .projects{
+        margin-top:3%;
+        width:100%;
+        align-items: center;
+    }
+    
+    .projects_container{
+        margin:1% 1% 12% 1%;
+        padding:1% 0% 1% 0%;
+        display: block;
+    }
+    
+    .projects_icon_container{
+        width:100%;
+    }
+    
+    .projects_details_container{
+        width:95%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left:5%;
+    }
+    
+    .projects_icon{
+        width:100%;
+    }
+    
+    .projects_heading{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .projects_heading2{
+        font-size: 20px;
+    }
+    
+    .projects_details{
+        font-size:20px;
+    }
+    
+    .icon{
+        width:18px;
+    }
+    
+    .link{
+    
+    }
+    
+    .link a{
+        text-decoration: none;
+        margin-right: 10px;
+        color:black;
+        font-size: 16px;
+    }
+    
+}
+

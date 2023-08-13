@@ -1,11 +1,12 @@
 .skills_container{
     display: flex;
     flex-wrap: wrap;
-    padding: 5% 5% 5% 10%;
+    padding: 5% 10% 5% 10%;
+    width:80%;
 }
 
 .skills{
-    width:96%;
+    width:100%;
 }
 
 .skills_raw{
@@ -103,6 +104,118 @@
 .skill_heading{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:22px;
+}
+
+
+
+
+@media(max-width:767px){
+    .skills_container{
+        display:list-item;
+        padding: 5% 1% 5% 1%;
+    }
+    
+    .skills{
+        width:98%;
+    }
+    
+    .skills_raw{
+        display: list-item;
+        padding-bottom: 0px;
+    }
+    
+    .skills_column{
+        width:100%;
+        padding-bottom: 4%;
+    }
+    
+    .skill_container{
+        width:100%;
+        display: flex;
+    }
+    
+    .skill_icon_container{
+        width:40%;
+    }
+    
+    .skill_description_container{
+        width:60%;
+    }
+    
+    .icon5{
+        border:none;
+        width:70%;
+        padding-left: 20%;
+    }
+    
+    .skillbar{
+        width:100%;
+        background-color:rgb(215, 245, 247);
+        padding-bottom:3px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: px;
+    }
+    
+    .excellent{
+        width:94%;
+        height:23px;
+        margin:1px 1px 1px 1px;
+        background-color: gold;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color:black;
+        font-weight: 600;
+        font-size:15px;
+        padding-left:5px;
+    
+    }
+    
+    .good{
+        width:74%;
+        height:23px;
+        margin:1px 1px 1px 1px;
+        background-color: greenyellow;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color:black;
+        font-weight: 600;
+        font-size:15px;
+        padding-left:5px;
+    
+    
+    }
+    
+    .average{
+        width:54%;
+        height:23px;
+        margin:1px 1px 1px 1px;
+        background-color:coral;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color:black;
+        font-weight: 600;
+        font-size:15px;
+        padding-left:5px;
+    }
+    
+    .reading{
+        width:34%;
+        height:23px;
+        margin:1px 1px 1px 1px;
+        background-color:cyan;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color:black;
+        font-weight: 600;
+        font-size:15px;
+        padding-left:5px;
+    }
+    
+    .skill_heading{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:22px;
+    }
+
 }
 
 

@@ -39,3 +39,53 @@
 .experience_details{
     font-size:20px;
 }
+
+
+
+@media (max-width: 767px){
+
+    .experience{
+        margin-top:3%;
+        width:100%;
+        align-items: center;
+    }
+    
+    .experience_container{
+        margin:1% 1% 1% 1%;
+        padding:1% 0% 1% 0%;
+        display: inline-block;
+    }
+    
+    .experience_icon_container{
+        width:100%;
+    }
+    
+    .experience_details_container{
+        width:92%;
+        padding:2% 4% 2% 4%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .experience_icon{
+        width:40%;
+        margin-left:30%;
+        margin-right: 30%;
+        margin-top:6%;
+        margin-bottom:2%;
+    }
+    
+    .experience_heading1{
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+    }
+    .experience_heading2{
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .experience_details{
+        font-size:16px;
+    }
+
+}
